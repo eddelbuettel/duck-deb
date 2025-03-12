@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: duckedb
+Comment:
+ This is the inofficial, informal, ad-hoc packaging of duckdb.
+Source: https://www.duckdb.org
+
+Files: *
+Copyright: 2018-2025 Stichting DuckDB Foundation
+License: MIT

@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	unzip duckdb_cli-linux-amd64.zip
+
+override_dh_auto_install:
+	mkdir -p debian/duckdb/usr/bin
+	install duckdb debian/duckdb/usr/bin/
+
+override_dh_auto_clean:
+	rm -f duckdb

@@ -1,0 +1,11 @@
+duckdb (1.2.1) noble; urgency=medium
+
+  * New version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 12 Mar 2025 09:15:25 -0500
+
+duckdb (1.2.0) noble; urgency=low
+
+  * Initial build
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 05 Mar 2025 19:21:57 -0500
