@@ -4,7 +4,7 @@
 	dh $@
 
 override_dh_auto_build:
-	unzip duckdb_cli-linux-amd64.zip
+	tar xfz duckdb-cli-linux-amd64.tar.gz
 
 override_dh_auto_install:
 	mkdir -p debian/duckdb/usr/bin

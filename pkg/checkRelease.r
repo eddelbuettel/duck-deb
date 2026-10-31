@@ -16,7 +16,7 @@ if (releases[1] == pkgs[1])
 
 tab <- res$assets[[1]]
 files <- tab$browser_download_url
-zipfile <- files[grepl("cli-linux-amd64.zip$", files)]
+zipfile <- files[grepl("cli-linux-amd64.tar.gz$", files)]
 tgt <- basename(zipfile)
 
 if (!file.exists(tgt)) {
